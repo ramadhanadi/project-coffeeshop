@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Grid Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .photo-grid div {
+            position: relative;
+            overflow: hidden;
+        }
+        .photo-grid img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .photo-grid div:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="photo-grid">
+        <div><img src="https://img.freepik.com/free-vector/flat-design-coffee-plantation-geometric-facebook-template_23-2149416081.jpg?t=st=1719311369~exp=1719314969~hmac=71e2668e0f21edfdbdc40f58c6a2196659edaf98818ff2a19aab26a0c13b8147&w=740" alt="Photo 1"></div>
+        <div><img src="https://img.freepik.com/free-psd/international-coffee-day-facebook-template_23-2150714319.jpg?t=st=1719311398~exp=1719314998~hmac=a03360e404d709f54665d38b59d47786ad8033710eb22c594435fa4bbf2ee368&w=740" alt="Photo 2"></div>
+        <div><img src="image3.jpg" alt="Photo 3"></div>
+        <div><img src="image4.jpg" alt="Photo 4"></div>
+        <div><img src="image5.jpg" alt="Photo 5"></div>
+        <div><img src="image6.jpg" alt="Photo 6"></div>
+        <div><img src="image7.jpg" alt="Photo 7"></div>
+        <div><img src="image8.jpg" alt="Photo 8"></div>
+        <div><img src="image9.jpg" alt="Photo 9"></div>
+        <div><img src="image10.jpg" alt="Photo 10"></div>
+        <div><img src="image11.jpg" alt="Photo 11"></div>
+        <div><img src="image12.jpg" alt="Photo 12"></div>
+        <div><img src="image13.jpg" alt="Photo 13"></div>
+        <div><img src="image14.jpg" alt="Photo 14"></div>
+        <div><img src="image15.jpg" alt="Photo 15"></div>
+        <div><img src="image16.jpg" alt="Photo 16"></div>
+    </div>
+</body>
+</html>
