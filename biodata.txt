@@ -1,2 +1,3 @@
 NO.REG : 2320010168
 NAMA : Ramadhan Adi Saputra
+JURUSAN : Teknologi Informasi
